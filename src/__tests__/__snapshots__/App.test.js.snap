@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Creation should render properly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "fontSize": "100px",
+        "paddingTop": "50px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <p>
+      Loading Please Wait
+    </p>
+    <div
+      className="sweet-loading"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-oyxt0d"
+        />
+        <div
+          className="css-13c2h83"
+        />
+        <div
+          className="css-1wzt0wo"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App should render properly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "fontSize": "100px",
+        "paddingTop": "50px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <p>
+      Loading Please Wait
+    </p>
+    <div
+      className="sweet-loading"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-oyxt0d"
+        />
+        <div
+          className="css-13c2h83"
+        />
+        <div
+          className="css-1wzt0wo"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

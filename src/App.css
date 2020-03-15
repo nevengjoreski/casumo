@@ -1,38 +1,135 @@
-.App {
+body {
+  font-family: 'Tangerine', serif;
+  font-size: 12px;
+}
+
+.info {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  width: calc(100vw - 1150px);
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.overlay {
+  font-family: 'Tangerine', serif;
+  font-size: 90px;
+  padding: 40px!important;
+  border: 2px solid white!important;
+}
+
+.filters button, .filters div {
+  margin-left: 20px;
+}
+
+.filters {
+  text-align: center;
+  margin: 10px 0;
+  font-family: 'Tangerine', serif;
+}
+
+.myButton {
+  font-family: 'Bree Serif', serif;
+  width: 250px;
+  height: 50px;
+  box-shadow: 3px 4px 8px -1px #000000;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #2b2a2b;
+  font-size: 15px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+}
+
+.myButton:hover {
+  background-color: transparent;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 50px;
+}
+
+/*.shadow{*/
+/*    !*box-shadow: 3px 4px 8px -1px #000000;*!*/
+/*    box-shadow: 0px -2px 6px 3px rgba(0,0,0,0.75);*/
+/*    border: 1px solid #000000;*/
+/*}*/
+.select select {
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  box-shadow: 3px 4px 8px -1px #000000;
+  text-shadow: 0px 1px 0px #000000;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 10px;
+  outline: 0;
+  border: 1px solid #000000;
+  border-radius: 11px;
+  background: #ffffff;
+  color: #000000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.halloween {
+  color: black;
+  background-color: coral !important;
+}
+
+.financeLastFriday {
+  color: black;
+  background-color: olive !important;
+}
+
+.fridayHalloween {
+  background: linear-gradient(135deg, olive 20%, coral 80%) !important;
+}
+
+.select select::-ms-expand {
+  display: none;
+}
+
+.select select:hover,
+.select select:focus {
+  color: #000000;
+  background: #ffffff;
+}
+
+.select select:disabled {
+  opacity: 0.5;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 5px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+  border-top-color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select select:disabled ~ .select_arrow {
+  border-top-color: #cccccc;
 }
