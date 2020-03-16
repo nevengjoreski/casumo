@@ -235,6 +235,7 @@ class MainTable extends Component {
 const TableInfo = () => (
   <div className={"info"}>
     <p>Hello Future Collegue</p>
+    <p>The primary interest was to sort and render on client side</p>
     <p className={"financeLastFriday"}>
       This Is 'Finance' Last Friday of Month
     </p>

@@ -2,6 +2,7 @@
 
 ## How I did it
 
+* The primary interest was to sort and render on client side
 * Preparing your full library at the beginning
 * Using Suspense and Lazy loading for the initial loading while the faker helps me create 1 million books
 * The ag-grid configuration does the rest
