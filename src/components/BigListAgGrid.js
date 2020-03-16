@@ -5,7 +5,7 @@ import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-balham-dark.css";
 import Filters from "./Filters";
 
-const NUMBER_OF_RECORDS = 100000;
+const NUMBER_OF_RECORDS = 1000000;
 const GENRES = [
   "comedy",
   "horror",

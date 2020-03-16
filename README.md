@@ -7,7 +7,7 @@
 * The ag-grid configuration does the rest
 * There are custom buttons for sorting and filtering
 
-###Used libraries
+### Used libraries
 
 * [React] - No Explanation needed
 * [faker] - doing the imagination for books and author data
